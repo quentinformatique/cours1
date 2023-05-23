@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+:root {
+    --shuttle-gray: #545c64;
+    --iceberg: #d3f3eb;
+    --green: #b2ca76;
+    --red: #fb736b;
+    --rangitoto: #353822;
+    --cape-cod: #343c3c;
+    --granny-smith: #8ca4a4;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.container {
+    background-color: var(--shuttle-gray);
+    border-radius: 10px;
+    padding: 10px;
+    width: 240px;
+    
+}
+
+.screen {
+    background-color: var(--iceberg);
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
+    width: 97%;
+    
+}
+
+.high {
+    height: 90px;
+    width: 240px;
+}
+
+.element {
+    border-radius: 8px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    font-size: 20px;
+}
+
+.petit {
+    font-size: 17px;
+    width: 39px;
+    height: 32px;
+}
+
+.green {
+    background-color: var(--green);
+}
+.green:hover {
+    background-color: #94a862;
+}
+
+.red {
+    background-color: var(--red);
+}
+.red:hover {
+    background-color: #cc5b55;
+}
+
+
+.blue:hover {
+    background-color: #708181;
+}
+
+button {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.round {
+    border-radius: 50px;
+}
+
+.blue {
+    background-color: var(--iceberg);
+}
+
+[class^="col-"] {
+    padding: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+.number {
+    border-radius: 50px;
+}
