@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Bootstrap 4.5.2 - Exemples cours</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-4.5.2-dist/css/bootstrap.css" rel="stylesheet">
+	<!--<link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet">-->
+	
+    <link href="monStyle.css" rel="stylesheet">
+	
+	
+	
+	<!-- Feuille de style pour font-awesome -->
+	<!-- <link href="fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
+	<link href="fontawesome-free-6.0.0-beta2-web/css/all.css" rel="stylesheet"> <!--load all styles -->
+	
+  </head>
+
+ <body>
+ 
+ <hr/>
+ 
+	<h1> 12 colonnes Utilisation de la classe container </h1>
+	<div class="container">
+      <div class="row">
+        <div class="col-1">1</div>
+		<div class="col-1">2 </div>
+		<div class="col-1">3</div>
+		<div class="col-1">4</div>
+		<div class="col-1">5</div>
+		<div class="col-1">6</div>
+		<div class="col-1">7</div>
+		<div class="col-1">8</div>
+		<div class="col-1">9</div>
+		<div class="col-1">10</div>
+		<div class="col-1">11</div>
+		<div class="col-1">12</div>
+      </div>
+
+    </div>
+	<br/><br/><br/><br/><br/><br/>
+    <hr/>
+ 	<h1> Je découpe en 5 et 7 Utilisation de la classe container</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-5">5 colonnes</div>
+        <div class="col-7">7 colonnes</div>
+      </div>
+    </div>
+	<br/><br/><br/><br/><br/><br/>
+	<hr/>
+	<h1> Je découpe en 5 et 7 Utilisation de la classe container-fluid</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-5">5 colonnes</div>
+        <div class="col-7">7 colonnes</div>
+      </div>
+    </div>
+	<br/><br/><br/><br/><br/><br/>
+	<hr/>
+	<h1> Exemple 1<br/>Avant le responsive col-10 et col-2</h1>
+	<div class="container"> 
+		<div class="row">
+			<div class="col-10"> Element 1 - 10 cases </div>
+			<div class="col-2"> Element 2 - 2 cases </div>
+		</div>
+	</div>
+	
+	<h1> Après le responsive <br/>
+		Case 1 : col-6 col-sm-7 col-md-10 col-xl-10<br/>
+		Case 2 : col-6 col-sm-5 col-md-2 col-xl-2
+	</h1>
+	<div class="container"> 
+		<div class="row">
+			<div class="col-6 col-sm-7 col-md-10 col-xl-10"> Element 1 - 10 cases </div>
+			<div class="col-6 col-sm-5 col-md-2 col-xl-2"> Element 2 - 2 cases </div>
+		</div>
+	</div>
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+	
+	<h1> Exemple 2 - Décalage de colonnes </h1>
+	<div class="container"> 
+		<div class="row">
+			<div class="col-6"> Element 1 - 6 cases </div>
+			<div class="col-4 offset-2"> Element 2 - 4 cases </div>
+		</div>
+	</div>
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+	
+	<h1> Exemple 3 - Imbrication </h1>
+	<div class="container"> 
+		<div class="row">
+			<div class="col-6">
+				<div class="row">
+					<div class="col-5">Contenu 5 col </div>
+					<div class="col-3">Contenu 3 col </div>
+					<div class="col-4">Contenu 4 col </div>
+				</div>
+				Element 1 - 10 cases 
+			</div>
+			<div class="col-4 offset-2"> Element 2 - 2 cases </div>
+		</div>
+	</div>
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+	
+	<h1> Exemple 4 - Changement d'ordre </h1>
+	<div class="container"> 
+		<div class="row">
+			<div class="col-3">Element 1 - 3 cases</div>
+			<div class="col-4"> Element 2 - 4 cases </div>
+			<div class="col-5"> Element 3 - 5 cases </div>
+		</div>
+		<div class="row">
+			<div class="col-3 order-2">Element 1 - 3 cases</div>
+			<div class="col-4 order-3"> Element 2 - 4 cases </div>
+			<div class="col-5 order-1"> Element 3 - 5 cases </div>
+		</div>
+	</div>
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+	
+	<h1> Exemple 5 - Multilignes </h1>
+	<div class="container">
+      <div class="row">
+        <div class="col-1">1</div>
+		<div class="col-1">2 </div>
+		<div class="col-1">3</div>
+		<div class="col-1">4</div>
+		<div class="col-1">5</div>
+		<div class="col-1">6</div>
+		<div class="col-1">7</div>
+		<div class="col-1">8</div>
+		<div class="col-1">9</div>
+		<div class="col-1">10</div>
+		<div class="col-1">11</div>
+		<div class="col-1">12</div>
+      </div>
+    </div>
+    <br/>
+	<div class="container">
+		<div class="row">
+			<div class="col-3">3 Cols</div>
+			<div class="col-4">4 Cols</div>
+			<div class="col-5">5 Cols</div>
+			<div class="col-6">6 Cols</div>
+		</div>
+	</div>
+    <br/>
+	<div class="container">
+		<div class="row">
+			<div class="col-3">3 Cols</div>
+			<div class="col-4">4 Cols</div>
+			<div class="col-6">6 Cols</div>
+			<div class="col-6">6 Cols</div>
+		</div>
+	</div>
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+	
+	<h1> Exemple 6 - Cacher des éléments </h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-6 col-sm-4">Element 1 - 4 Cols</div>
+			<div class="d-none d-sm-block col-sm-4">Element 2 - 4 Cols</div>
+			<div class="col-6 col-sm-4">Element 3 - 6 Cols</div>
+		</div>
+	</div>
+    <br/><br/><br/><br/><br/><br/><hr/>
+	
+	<h1> Exemple 7 - Bordures </h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-6">
+				Contenu de la <span class="border">case</span> 1
+			</div>
+			<div class="col-6 border">
+				Contenu de la case 2 encadrée
+			</div>	
+		</div>
+		<br/>
+		<div class="row">
+			<div class="col-4 border border-primary">border-primary</div>
+			<div class="col-4 border border-secondary">border-secondary </div>
+			<div class="col-4 border border-success">border-success</div>
+			<div class="col-4 border border-danger">border-danger</div>
+			<div class="col-4 border border-warning">border-warning</div>
+			<div class="col-4 border border-info">border-info</div>
+			<div class="col-4 border border-light">border-light</div>
+			<div class="col-4 border border-dark">border-dark</div>
+			<div class="col-4 border border-white">border-white</div>
+		</div>
+		<br/>
+		<div class="row">
+			<div class="col-3 border-0"><img src="rodez.jpg" alt="Rodez" class="image rounded"></div>
+			<div class="col-3 border-0"><img src="rodez.jpg" alt="Rodez" class="image rounded-top"></div>
+			<div class="col-3 border-0"><img src="rodez.jpg" alt="Rodez" class="image rounded-right"></div>
+			<div class="col-3 border-0"><img src="rodez.jpg" alt="Rodez" class="image rounded-bottom"></div>
+			<div class="col-3 border-0"><img src="rodez.jpg" alt="Rodez" class="image rounded-left"></div>
+			<div class="col-3 border-0 "><img src="rodez.jpg" alt="Rodez" class="image rounded-circle"></div>
+			<div class="col-3 border-0"><img src="rodez.jpg" alt="Rodez" class="image rounded-pill"></div>
+			<div class="col-3 border-0"><img src="rodez.jpg" alt="Rodez" class="image rounded-0"></div>
+		</div>
+		<br/>
+	</div>
+
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+	<h1> Exemple 8 - Couleurs </h1>
+	<div class="container">
+		<p class="text-primary">.text-primary</p>
+		<p class="text-secondary">.text-secondary</p>
+		<p class="text-success">.text-success</p>
+		<p class="text-danger">.text-danger</p>
+		<p class="text-warning">.text-warning</p>
+		<p class="text-info">.text-info</p>
+		<p class="text-light bg-dark">.text-light</p>
+		<p class="text-dark">.text-dark</p>
+		<p class="text-body">.text-body</p>
+		<p class="text-muted">.text-muted</p>
+		<p class="text-white bg-dark">.text-white</p>
+		<p class="text-black-50">.text-black-50</p>
+		<p class="text-white-50 bg-dark">.text-white-50</p>
+		
+		<h1> Exemple 8 - Arrières plans </h1>
+		<p class="bg-primary text-white">.bg-primary</p>
+		<p class="bg-secondary text-white">.bg-secondary</p>
+		<p class="bg-success text-white">.bg-success</p>
+		<p class="bg-danger text-white">.bg-danger</p>
+		<p class="bg-warning text-dark">.bg-warning</p>
+		<p class="bg-info text-white">.bg-info</p>
+		<p class="bg-light text-dark">.bg-light</p>
+		<p class="bg-dark text-white">.bg-dark</p>
+		<p class="bg-white text-dark">.bg-white</p>
+		<p class="bg-transparent text-dark">.bg-transparent</p>
+	</div>
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+	
+	<h1> Exemple 9 - Flottement </h1>
+	<div class="container">
+		<div class="float-left">Flottement Gauche</div><br>
+		<div class="float-right">Flottement droite</div><br>
+		<div class="float-none">Pas de Flottement</div>
+		<br/><br/><br/><br/><br/><br/><hr/>
+
+		<h1> Exemple 10 - Margin et padding </h1>
+		<p class="m-1 p-2 bg-primary text-white">m-1 p-2</p>
+		<p class="m-2 p-3 bg-primary text-white">m-2 p-3</p>
+		<p class="m-3 p-4 bg-primary text-white">m-3 p-4</p>
+	</div>
+	
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+	<h1> Exemple 11 - Alignement </h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-3 text-justify">Texte justifié dans la case. Le texte doit etre un peu long pour que l'on voit que c'est bien justifié</div>
+			<div class="col-3 text-left">Texte à gauche</div>
+			<div class="col-3 text-right">Texte à droite</div>
+			<div class="col-3 text-center">Texte centré</div>
+		</div>
+	</div>
+
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+	<h1> Exemple 12 - Badges </h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<span class="badge badge-primary">Primary</span>
+				<span class="badge badge-secondary">Secondary</span>
+				<span class="badge badge-success">Success</span>
+				<span class="badge badge-danger">Danger</span>
+				<span class="badge badge-warning">Warning</span>
+				<span class="badge badge-info">Info</span>
+				<span class="badge badge-light">Light</span>
+				<span class="badge badge-dark">Dark</span>
+				<br/>
+				<span class="badge badge-pill badge-primary">Primary</span>
+				<span class="badge badge-pill badge-secondary">Secondary</span>
+				<span class="badge badge-pill badge-success">Success</span>
+				<span class="badge badge-pill badge-danger">Danger</span>
+				<span class="badge badge-pill badge-warning">Warning</span>
+				<span class="badge badge-pill badge-info">Info</span>
+				<span class="badge badge-pill badge-light">Light</span>
+				<span class="badge badge-pill badge-dark">Dark</span>
+			</div>
+		</div>
+    </div>
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+		<h1> Exemple 13 - Boutons </h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<span class="btn btn-primary">Primary</span>
+				<span class="btn btn-secondary">Secondary</span>
+				<span class="btn btn-success">Success</span>
+				<span class="btn btn-danger">Danger</span>
+				<span class="btn btn-warning">Warning</span>
+				<span class="btn btn-info">Info</span>
+				<span class="btn btn-light">Light</span>
+				<span class="btn btn-dark">Dark</span>
+				<span class="btn btn-link">Link</span>				
+			</div>
+			<br/>
+			<div class="col-12">
+				<span class="btn btn-outline-primary">Primary</span>
+				<span class="btn btn-outline-secondary">Secondary</span>
+				<span class="btn btn-outline-success">Success</span>
+				<span class="btn btn-outline-danger">Danger</span>
+				<span class="btn btn-outline-warning">Warning</span>
+				<span class="btn btn-outline-info">Info</span>
+				<span class="btn btn-outline-light">Light</span>
+				<span class="btn btn-outline-dark">Dark</span>
+				<span class="btn btn-outline-link">Link</span>	
+			</div>
+			<div class="col-3">
+				<span class="btn btn-primary btn-lg">Primary btn-lg</span>
+			</div>
+			<div class="col-3">
+				<span class="btn btn-primary btn-sm">Primary btn-sm</span>
+			</div>
+			<div class="col-6">
+				<span class="btn btn-primary btn-block">Primary block</span>
+			</div>
+		</div>
+    </div>
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+	
+    <br/><br/><br/><br/><br/><br/><hr/>	
+	
+	
+	<h1> Exemple 14 - Formulaires </h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<form>
+					<label for="exampleInputEmail1">Adresse Email</label>
+					<input type="email" id="exampleInputEmail1" placeholder="Donnez votre mail"/>
+					
+					<label for="exampleInputPassword1">Mot de passe</label>
+					<input type="password" id="exampleInputPassword1" placeholder="Password"/>
+					
+					<label for="exampleFormControlSelect1">Exemple select</label>
+					<select id="exampleFormControlSelect1">
+					  <option>Valeur 1</option>
+					  <option>Valeur 12</option>
+					  <option>Valeur 13</option>
+					  <option>Valeur 14</option>
+					  <option>Valeur 15</option>
+					</select>
+	
+					<label for="exampleFormControlTextarea1">Example textarea</label>
+					<textarea id="exampleFormControlTextarea1" rows="3"></textarea>
+  
+					<div >
+					  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+					  <label class="form-check-label" for="inlineCheckbox1">1</label>
+					</div>
+					<div >
+					  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+					  <label class="form-check-label" for="inlineCheckbox2">2</label>
+					</div>
+					<div >
+					  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+					  <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+					</div>
+					<br/>
+					
+					<input type="submit" class="btn btn-primary"/>
+				</form>
+			</div>
+			<div class="col-12">
+				<form>
+					<label for="exampleInputEmail1">Adresse Email</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Donnez votre mail"/>
+					
+					<label for="exampleInputPassword1">Mot de passe</label>
+					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"/>
+					
+					<label for="exampleFormControlSelect1">Exemple select</label>
+					<select class="form-control" id="exampleFormControlSelect1">
+					  <option>Valeur 1</option>
+					  <option>Valeur 12</option>
+					  <option>Valeur 13</option>
+					  <option>Valeur 14</option>
+					  <option>Valeur 15</option>
+					</select>
+	
+					<label for="exampleFormControlTextarea1">Example textarea</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  
+					<div class="form-check form-check-inline">
+					  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+					  <label class="form-check-label" for="inlineCheckbox1">1</label>
+					</div>
+					<div class="form-check form-check-inline">
+					  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+					  <label class="form-check-label" for="inlineCheckbox2">2</label>
+					</div>
+					<div class="form-check form-check-inline">
+					  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+					  <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+					</div>
+					<br/>
+					
+					<input type="submit" class="btn btn-primary"/>
+				</form>
+			</div>
+		</div>
+	</div>
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+	
+	<h1>Exemple 15 - Tableaux</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-12"><h2>Sans Framework</h2>
+					<table>
+						<tr><td>Filiere</td><td>Année</td><td>Nombre d'étudiants</td></tr>
+						<tr><td>Informatique</td><td>1ère</td><td>80</td></tr>
+						<tr><td>Informatique</td><td>2ème</td><td>58</td></tr>
+						<tr><td>GEA</td><td>1ère</td><td>100</td></tr>
+						<tr><td>GEA</td><td>2ème</td><td>70</td></tr>
+					</table>
+					
+					<br />
+					<h2>Avec Framework</h2>
+					<h3>Ajout class table</h3>
+					<table class="table">
+						<tr><td>Filiere</td><td>Année</td><td>Nombre d'étudiants</td></tr>
+						<tr><td>Informatique</td><td>1ère</td><td>80</td></tr>
+						<tr><td>Informatique</td><td>2ème</td><td>58</td></tr>
+						<tr><td>GEA</td><td>1ère</td><td>100</td></tr>
+						<tr><td>GEA</td><td>2ème</td><td>70</td></tr>
+					</table>
+					
+					<br />
+					<h3>Ajout class table-bordered</h3>
+					&lt;table class="table table-bordered">
+					<table class="table table-bordered">
+						<tr><td>Filiere</td><td>Année</td><td>Nombre d'étudiants</td></tr>
+						<tr><td>Informatique</td><td>1ère</td><td>80</td></tr>
+						<tr><td>Informatique</td><td>2ème</td><td>58</td></tr>
+						<tr><td>GEA</td><td>1ère</td><td>100</td></tr>
+						<tr><td>GEA</td><td>2ème</td><td>70</td></tr>
+					</table>
+					<br />
+					
+					<h3>Ajout class table-striped</h3>
+					&lt;table class="table table-bordered table-striped">
+					<table class="table table-bordered table-striped">
+						<tr><td>Filiere</td><td>Année</td><td>Nombre d'étudiants</td></tr>
+						<tr><td>Informatique</td><td>1ère</td><td>80</td></tr>
+						<tr><td>Informatique</td><td>2ème</td><td>58</td></tr>
+						<tr><td>GEA</td><td>1ère</td><td>100</td></tr>
+						<tr><td>GEA</td><td>2ème</td><td>70</td></tr>
+					</table>	
+					<br />
+					
+					<h3>Ajout class Couleurs sur tr</h3>
+					<table class="table table-bordered">
+						<tr class="table-active"><td>&lt;tr class="table-active"></td><td>Filiere</td><td>Année</td><td>Nombre d'étudiants</td></tr>
+						<tr class="table-default"><td>&lt;tr class="table-default"></td><td>Informatique</td><td>1ère</td><td>80</td></tr>
+						<tr class="table-primary"><td></td>&lt;tr class="table-primary"><td>Informatique</td><td>2ème</td><td>58</td></tr>
+						<tr class="table-secondary"><td>&lt;tr class="table-secondary"></td><td>GEA</td><td>1ère</td><td>100</td></tr>
+						<tr class="table-danger"><td>&lt;tr class="table-danger"></td><td>GEA</td><td>2ème</td><td>70</td></tr>
+						<tr class="table-warning"><td>&lt;tr class="table-warning"></td><td>QLIO</td><td>1ère</td><td>70</td></tr>
+						<tr class="table-info"><td>&lt;tr class="table-info"></td><td>QLIO</td><td>2ème</td><td>50</td></tr>
+						<tr class="table-light"><td>&lt;tr class="table-light"></td><td>QLIO</td><td>1ère</td><td>70</td></tr>
+						<tr class="table-dark"><td>&lt;tr class="table-dark"></td><td>CJ</td><td>1ère</td><td>50</td></tr>
+
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+
+	
+	
+	<h1>Exemple 16 - Font awesome</h1>
+	
+	<div class="container">
+		<span class="fab fa-linkedin-in	fa-5x"></span> &lt;span class="fab fa-linkedin-in	fa-5x"></span> <br>
+		<span class="fab fa-facebook fa-5x"></span> &lt;span class="fab fa-facebook fa-5x"></span> <br>
+		<span class="fas fa-ambulance fa-5x"></span> &lt;span class="fas fa-ambulance fa-5x"></span>  <br>
+		<span class="fab fa-youtube fa-5x"></span> &lt;pan class="fab fa-youtube fa-5x"></span>  <br>
+		<i class="fas fa-biking fa-5x"></i> &lt;i class="fas fa-biking"></i> <br>
+	</div>
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+	
+	<h1>Exemple 17 - Font awesome - Tailles</h1>
+	<div class="container">
+		<span class="fab fa-cc-mastercard fa-lg"></span> &lt;span class="fab fa-cc-mastercard fa-lg"></span><br>
+		<span class="fab fa-cc-mastercard fa-2x"></span> &lt;span class="fab fa-cc-mastercard fa-2x"></span><br>
+		<span class="fab fa-cc-mastercard fa-3x"></span> &lt;span class="fab fa-cc-mastercard fa-3x"></span><br>
+		<span class="fab fa-cc-mastercard fa-4x"></span> &lt;span class="fab fa-cc-mastercard fa-4x"></span><br>
+		<span class="fab fa-cc-mastercard fa-5x"></span> &lt;span class="fab fa-cc-mastercard fa-5x"></span><br>
+    </div>
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+	
+	
+	<h1>Exemple 18 - Font awesome - Listes</h1>
+	<div class="container">
+		<p>Nous rejoindre sur :</p> 
+		<ul class="fa-ul"> 
+		  <li><i class="fa-li fab fa-twitter-square"></i> Twitter &lt;i class="fa-li fab fa-twitter-square"></i></li> 
+		  <li><i class="fa-li fab fa-facebook"></i> Facebook &lt;i class="fa-li fab fa-facebook"></i> </li> 
+		  <li><i class="fa-li fab fa-google-plus-square"></i> Google +&lt;i class="fa-li fab fa-google-plus-square"></i></li> 
+		  <li><i class="fa-li fab fa-youtube"></i> Youtube &lt;i class="fa-li fab fa-youtube"></i></li> 
+	   </ul>
+	</div>
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+	
+	
+	
+	<h1>Exemple 19 - Font awesome - Rotation statique</h1>
+	<div class="container">
+		&nbsp;&nbsp;<i class="fas fa-child fa-5x"></i> &lt;i class="fas fa-child fa-5x"></i><br>
+		&nbsp;&nbsp;<i class="fas fa-child fa-5x fa-rotate-90"></i> &lt;i class="fas fa-child fa-5x fa-rotate-90"><br>
+		&nbsp;&nbsp;<i class="fas fa-child fa-5x fa-rotate-180"></i> &lt;i class="fas fa-child fa-5x fa-rotate-180"><br>
+		&nbsp;&nbsp;<i class="fas fa-child fa-5x fa-rotate-270"></i> &lt;i class="fas fa-child fa-5x fa-rotate-270"></i><br>
+	</div>
+	<br/><br/><br/><br/><br/><br/><hr/>
+
+
+
+	<h1>Exemple 20 - Font awesome - Rotation</h1>
+	<div class="container">
+		<h1> Page en cours de chargement<br>
+		&lt;i class="fas fa-spinner fa-spin"></i> <br/>
+		<i class="fas fa-spinner fa-spin"></i> <br/>
+
+		<br>
+		&lt;div class="spinner-border" role="status">&lt;span class="sr-only">Loading...</span>&lt;/div><br>
+		<br>
+		<div class="spinner-border" role="status">
+			<span class="sr-only">Loading...</span>
+		</div>
+		</h1
+	</div>
+		
+	>
+	<br/><br/><br/><br/><br/><br/><hr/>
+	
+	<h1>Exemple 21 - Nav</h1>
+	<div class="container">
+		<nav class="nav">
+		  <a class="nav-link active" href="#">Active</a>
+		  <a class="nav-link" href="#">Link</a>
+		  <a class="nav-link" href="#">Link</a>
+		  <a class="nav-link disabled">Disabled</a>
+		</nav>
+		<hr/> 
+		
+		<ul class="nav justify-content-end">
+		  <li class="nav-item">
+			<a class="nav-link active" href="#">Active</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Link</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Link</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link disabled">Disabled</a>
+		  </li>
+		</ul>
+	</div>
+	<br/><br/><br/><br/><br/><br/><hr/> 
+	
+	<h1>Exemple 22 - Tabs</h1>
+	<div class="container">
+		<ul class="nav nav-tabs">
+		  <li class="nav-item">
+			<a class="nav-link active" href="#">Active</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Link</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Link</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link disabled">Disabled</a>
+		  </li>
+		</ul>
+	</div>
+	<br/><br/><br/><br/><br/><br/><hr/> 
+	
+	<h1>Exemple 23 - dropdown</h1>
+	<div class="container">
+		<ul class="nav nav-tabs">
+		  <li class="nav-item">
+			<a class="nav-link active" href="#">Actif</a>
+		  </li>
+		  <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Menu Déroulant</a>
+			<div class="dropdown-menu">
+			  <a class="dropdown-item" href="#">Action 1</a>
+			  <a class="dropdown-item" href="#">Action 2</a>
+			  <a class="dropdown-item" href="#">Action 3</a>
+			  <div class="dropdown-divider"></div>
+			  <a class="dropdown-item" href="#">Action 4</a>
+			</div>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Lien</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link disabled">Désactivé</a>
+		  </li>
+		</ul>
+	</div>
+
+	<br/><br/><br/><br/><br/><br/><hr/> 
+	
+	
+	<h1>Exemple 24 - NavBar</h1>
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <a class="navbar-brand" href="#">Navbar</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+					  <li class="nav-item active">
+						<a class="nav-link" href="#">Premier Lien <span class="sr-only">(current)</span></a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Lien 2</a>
+					  </li>
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+						  Menu Déroulant
+						</a>
+						<div class="dropdown-menu">
+						  <a class="dropdown-item" href="#">Action 1</a>
+						  <a class="dropdown-item" href="#">Action 2</a>
+						  <div class="dropdown-divider"></div>
+						  <a class="dropdown-item" href="#">Action 3</a>
+						</div>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link disabled">Lien désactivé</a>
+					  </li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+					  <input class="form-control mr-sm-2" type="search" placeholder="Recherche" aria-label="Recherche">
+					  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
+					</form>
+			  </div>
+		</nav>
+	</div>
+	<br/><br/><br/><br/><br/><br/><hr/> 
+	
+	<h1>Exemple 25 - Accordeon</h1>
+	<div class="container">
+		<div class="accordion" id="accordionExample">
+		  <div class="card">
+			<div class="card-header" id="headingOne">
+			  <h2 class="mb-0">
+				<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				  Accordeon 1
+				</button>
+			  </h2>
+			</div>
+
+			<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+			  <div class="card-body">
+				Contenu accordeon 1<br>
+				Ligne 2
+			  </div>
+			</div>
+		  </div>
+		  <div class="card">
+			<div class="card-header" id="headingTwo">
+			  <h2 class="mb-0">
+				<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				   Accordeon 2
+				</button>
+			  </h2>
+			</div>
+			<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+			  <div class="card-body">
+				Contenu accordeon 2<br>
+				Ligne 2<br><img src="rodez.jpg" alt="Rodez" class="rounded-pill">
+			  </div>
+			</div>
+		  </div>
+		  <div class="card">
+			<div class="card-header" id="headingThree">
+			  <h2 class="mb-0">
+				<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				  Accordeon 3
+				</button>
+			  </h2>
+			</div>
+			<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+			  <div class="card-body">
+				Contenu accordeon 3<br>
+				Ligne 2
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</div>
+	<br/><br/><br/><br/><br/><br/><hr/> 
+	
+
+	<script src="jquery/jquery-3.6.1.js"></script>
+	<script src="bootstrap-4.5.2-dist/js/bootstrap.bundle.js"></script>
+	<script src="bootstrap-4.5.2-dist/js/bootstrap.js"></script>
+	
+  </body>
+</html>

@@ -1,0 +1,61 @@
+.case {
+    border-radius: 6px;
+    background: linear-gradient(to bottom ,white, grey);
+    padding: 6px;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    text-shadow: 2px;
+}
+h2 {
+    text-shadow: 2px;
+}
+body {
+    background: linear-gradient(to bottom ,grey, white);
+}
+
+.outer-case {
+    padding: 10px;
+
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.height-center {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 575px) { 
+    .height {
+        max-height: 70%;
+        max-width: 70%;
+    }
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.width {
+    width: 30%;
+}
+
+.logo {
+    padding-left: 15px;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}

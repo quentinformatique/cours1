@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>TP5-Exercice 5-1</title>
+        <meta name="Description" content="Ma Page">
+        <meta name="Keywords" content="IUT, Rodez">
+    </head>
+    <body>
+        <h1>Formulaires</h1>
+        <form>
+            <table border="1">
+                <caption>Enregistrement d'un utilisateur</caption>
+                <tr>
+                    <td><label for="nom">Nom</label></td>
+                    <td><input type="text" id="nom"></td>
+                    <td><label for="Prenom">Prenom</label></td>
+                    <td><input type="text" id="nom"></td>
+                </tr>
+                <tr>
+                    <td><label for="tel">Téléphone</label></td>
+                    <td><input type="tel" id="tel"></td>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td>Sexe</td>
+                    <td>Homme :<input type="radio"/> <br>Femme :<input type="radio"/></td>
+                    <td>Fonction</td>
+                    <td><select>
+                        <option>Enseignant</option>
+                        <option>Elève</option>
+                        <option>Autre</option>
+                    </select> </td>
+                </tr>
+                <tr>
+                    <td><label for="conn">Connaissances</label></td>
+                    <td colspan="3">
+                        <table border="1">
+                            <td><label for="html">html :</label><input type="checkbox" id="html"></td>
+
+                            <td><label for="html">html :</label><input type="checkbox" id="html"></td>
+                            <td><label for="css">css :</label><input type="checkbox" id="css"></td>
+                            <td><label for="Java">Java :</label><input type="checkbox" id="Java"></td>
+                            <td><label for="php">php :</label><input type="checkbox" id="php"></td>
+                            <td><label for="python">python :</label><input type="checkbox" id="python"></td>
+                            <td><label for="C#">C# :</label><input type="checkbox" id="C#"></td>
+                            <td><label for="JS">JS :</label><input type="checkbox" id="JS"></td>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Commentaires libres</td>
+                    <td colspan="3"><textarea cols="80" rows="5">Tapez ici vos commentaires</textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="lvl">Niveau d'anglais :</label><input type="range" id="lvl" min="0" max="10"></td>
+                    <td><label for="years">Années d'études :</label><select id="years">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select></td>
+                    <td colspan="2">Autres langues
+                        <select>
+                            <option>Sélection</option>
+                            <optgroup label="Espagnol">
+                                <option>Déutant</option>
+                                <option>Avancé</option>
+                                <option>Courant</option>
+                            </optgroup>
+                            <optgroup label="Allemand">
+                                <option>Déutant</option>
+                                <option>Avancé</option>
+                                <option>Courant</option>
+                            </optgroup>
+                        </select>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="username">Username :</label><input type="text"></td> 
+                    <td colspan="2"><label for="password">Mot de passe (8 charaters minimum):</label><input type="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><label for="img">Votre image d'identité :</label><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Date :</label><input type="date"></td>
+                    <td><label for="hours">Heure :</label><input type="time"></td>
+                    <td></td>
+                    <td><input type="submit" value="Envoyer"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html> 

@@ -1,0 +1,32 @@
+.center {
+    text-align: center;
+}
+
+.yellowBG {
+    background-color: yellow;
+}
+
+.border {
+    border-style: solid;    
+    border-color: blue;    
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.percent20 {
+    width: 20%;
+}
+.percent50 {
+    width: 50%;
+}
+.percent30 {
+    width: 30%;
+}

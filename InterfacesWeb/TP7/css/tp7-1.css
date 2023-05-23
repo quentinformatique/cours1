@@ -1,0 +1,50 @@
+.px12 {
+    font-size: 12px;
+}
+
+.px20 {
+    font-size: 20px;
+}
+
+.em2 {
+    font-size: 2em;
+}
+
+.em4 {
+    font-size: 4em;
+}
+
+.em05 {
+    font-size: 0.5em;
+}
+
+.italique {
+    font-style: italic;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+.grisBG {
+    background-color: grey;
+}
+.yellowBG {
+    background-color: yellow;
+}
+
+.rouge {
+    color: red;
+}
+
+.barrer {
+    text-decoration: line-through;
+}
+
+.vert {
+    color: green;
+}
+
+.center {
+    text-align: center;
+}

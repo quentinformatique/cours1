@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Fredoka+One&family=Metal+Mania&display=swap');
+
+.Colonne1Titre{
+    border: solid 1px blue;
+    border-radius: 4px;
+    width: 50%;
+    background: yellow;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    opacity: 30%;
+}
+.Colonne2Titre{
+    border: solid 1px blue;
+    border-radius: 4px;
+    width: 30%;
+    background: yellow;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    opacity: 30%;
+}
+.Colonne3Titre{
+    border: solid 1px blue;
+    border-radius: 4px;
+    width: 20%;
+    background: yellow;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    opacity: 30%;
+}
+.Colonne1Cellule{
+    border: solid 1px blue;
+    border-radius: 4px;
+    width: 50%;
+    vertical-align: bottom;
+    font-family: 'DynaPuff', cursive;
+    font-size: x-small;
+    height: 300px;
+    padding: 20px;
+    opacity: 30%;
+}
+.Colonne2Cellule{
+    border: solid 1px blue;
+    border-radius: 4px;
+    width: 30%;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: x-small;
+    height: 300px;
+    padding: 20px;
+    opacity: 30%;
+}
+.Colonne2CelluleImage{
+    border: solid 1px blue;
+    border-radius: 4px;
+    width: 30%;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: x-small;
+    height: 300px;
+    padding: 20px;
+    background-image: url("../sujetRessources/IUT_Rodez-ffbee5be.jpeg");  
+    opacity: 30%;
+    border-image-repeat: stretch;
+}
+.Colonne3Cellule{
+    border: solid 1px blue;
+    border-radius: 4px;
+    width: 20%;
+    vertical-align: top;
+    text-align: end;
+    font-family: 'Metal Mania', cursive;
+    font-size: x-small;
+    height: 300px;
+    padding: 20px;
+    opacity: 30%;
+}
+.Colonne3CelluleCouleur{
+    border: solid 1px blue;
+    border-radius: 4px;
+    width: 20%;
+    vertical-align: top;
+    text-align: end;
+    font-family: 'Metal Mania', cursive;
+    font-size: x-small;
+    height: 300px;
+    padding: 20px;
+    opacity: 30%;
+}
+.Colonne3CelluleCouleur:hover {
+    background-color: red;
+    color: yellow;
+}
+.Colonne3CelluleCouleur:active {
+    background-color: blue;
+    color: red;
+}
+.DerniereLigne{
+    border: solid 1px blue;
+    border-radius: 4px;
+    width: 100%;
+    background: yellow;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}

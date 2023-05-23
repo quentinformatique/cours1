@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Fredoka+One&family=Metal+Mania&display=swap');
+.yellow {
+    background-color: yellow;
+    font-size: x-large;
+    font-weight: bold;
+    height: auto;
+}
+.blueBorder {
+    border: solid 1px;
+    border-color: blue;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right
+}
+.left {
+    text-align:left;
+    vertical-align: bottom;
+}
+.width50 {
+    width: 50%;
+}
+.width30 {
+    width: 30%;
+}
+.width20 {
+    width: 20%;
+}
+.dyna {
+    font-family: 'DynaPuff', cursive;
+}
+.fredoka {
+    font-family: 'Fredoka One', cursive;
+
+}
+.metal {
+    font-family: 'Metal Mania', cursive;
+
+}
+td {
+    height: 300px;
+}

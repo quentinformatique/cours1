@@ -1,0 +1,12 @@
+.case {
+    height: 70px;
+    background-color: grey;
+    border-radius: 6px;
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    text-align: center;
+}
