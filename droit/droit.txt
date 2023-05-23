@@ -1,0 +1,46 @@
+# I- intro generale au droit numérique
+
+## les sources du droit
+
+il y a les sources nationales et les supra-nationales (pour les sources nationales : )
+les sources spécifiques au droit numérique
+et les sources générale qu’on appliquera
+
+en droit fr on fonction en hiérarchie : 
+→ constitution →  lois → décrets → arrêtés
+
+les parlementaires peuvent saisir le **conseil constitutionnel** afin de procéder à la verif de la loi(pas encore en vigueur) pour savoir si elle est conforme à la constitution.Si oui , elle peut être publié et donc entrer en vigueur, si non, le conseil constitutionnel rentien que la lois n’est pas conforme (soit partiellement soit complètement) si en partie conforme : la loi peut être publié mais avec certains articles censurées sinon la procédure est arrêtée.le conseil constitutionnel peut aussi utiliser des Réserves d'interprétation: il va considérer que la lois soumise n’est pas conforme mais uniquement si elle est interprétée dans le sens qu’il donne. Elle s’imposer ensuite au juge qui devra la prendre en compte (il nour pourras pas l'interpréter comme il veut)
+
+Le conseil peut aussi faire un contrôle avec la **question prioritaire de constitutionnalité** la différence c’est que ce contrôle a lieu après la publication de la loi.Ca va entrainer la suspension. 
+C'est toujours le juge le plus au placé qui va determiner c'est c'est une quesion serieuse, est-ce elle nécessite de saisir le conseil constitutionnel.
+
+hierarchie: 
+
+                             Conseil constitutionnel
+                              ordre de juridiction
+                    ordre judiciare           ordre anministratif
+                    CE (conseil d'etat)       cour de cassation
+                    CAA                       CA
+                    TA                        TJ(tribunal judiciaire)
+
+Le conseil va ensuite examiner la questoin que l'on pose est sérieuse.Si ils retienent que la question n'est pas sérieuse alors elle va redessendre et le juge appliquera la loi. Si ils retienne le caractere sérieux de la question il vont la transmetre au conseil constitutionel car il n'y a que eux qui peuvent y répondre(conforme ou non) 
+-  oui : l'affaire reddesent
+-  non : la loi n'est plus apliquée nul part, les juges devront aplliquer d'autres dispositions
+
+### quelques exemple de texte en rapport avec le numérique 
+
+l'article 9 du code civil rotege la vie privée qui pourras etre invoquer lorsqu'une personne disffuse sur internet une photo d'une personne sans son autorisation
+
+Loi de 1881 sur la libertée de la presse ou une personne fais l'objet d'injures sur internet, elle pourras invoquer cette loi afin de poursuivre cette personne
+
+toute personne qui commet une faute qui cause un dommage à une autre elle pourras etre condamnée sur le fondement de la responsable extra-contractuelle
+
+lorqu'il y a des contrats conclu en ligne il y a les article 1127- 3 et 1114, la question qui va se poser c'est quand a eu lieu le contrat car il y a dabbord l'offre puis l'acceptation ainsi pour les contrat electronique la signature se fait toujours par un double clic(c'est un obligation)
+
+pour les textes spéciaux la loi la plus importante est celle du 6 janvier 78 : loi informatique qui s'interesse au données a caractere perso, depuis elle a etait adaptée au rgpd(reglement general de protection des données). Il sagit de proteger les données perso, en reconnaisant des droits tel que le consentement (le consentement peut etre retiré)
+
+La jurice prudence, c'est les décision rendus par le conseil d'etat ou autre, elle peut contenir et ennoncé des principes a tenir compte
+> des précision sur le devoirs de conseil d'un vendeur sur le contrat ou autre, des lignes direcrices 
+
+les lignes directrice sont parfois contestées,
+> est ce que le proprio d'un site peut refuser l'acces à un site (la cnil disait ça) mais le conseil d'etat a autoriser le refus de l'acces a son site mais l'acces doit etre donner moyennant contre partie ou si le contenu est accésible autre part
