@@ -35,6 +35,10 @@ class View {
         this.#display.innerHTML = n;
     }
 
+    changeButtonColor () {
+        
+    }
+
 }
 
 class Controller {
@@ -44,22 +48,17 @@ class Controller {
     constructor(model, view) {
         this.#model = model;
         this.#view = view;
-        this.#view.getButton().addEventListener('click', this.updateModel.bind(this));
+        this.#view.getButton().addEventListener('click', this.callBack);
     }
 
-    updateModel() {
-        let result = this.#model.increment()
-        this.updateView(result)
-    }
-
-    updateView(n) {
+    callBack = () => {
+        let n = this.#model.increment()
         this.#view.updateView(n);
     }
 }
 
 const display = document.querySelector('#displayedNumber');
 const button = document.querySelector('#buttonAdd');
-
 
 const model = new  Model(0);
 const view = new View(display, button);
